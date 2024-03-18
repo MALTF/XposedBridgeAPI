@@ -6,6 +6,14 @@ The Java part of the Xposed framework.
 // https://mvnrepository.com/artifact/de.robv.android.xposed/api
 implementation 'de.robv.android.xposed:api:82'
 ```
+The latest version introduced 参考[build.gradle.kts(:core)](core/core/build.gradle.kts)
+```java
+api(project(":api"))
+implementation(libs.commons.lang3)
+implementation(projects.hiddenapi.bridge)
+compileOnly(projects.hiddenapi.stubs)
+```
+
 ## 参考资料
 [Welcome to the Javadoc reference of the Xposed Framework API. ](https://api.xposed.info/reference/packages.html)
 
