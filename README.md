@@ -1,4 +1,4 @@
-# XposedBridgeAPI
+# XposedBridgeAPI <a href="settings.gradle.kts"><img src="https://img.shields.io/badge/PASS-Malt?style=for-the-badge&label=BUILD&labelColor=%230A69DA"/></a>
 The Java part of the Xposed framework. 
 
 #### Quick Start
